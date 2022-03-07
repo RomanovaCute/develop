@@ -2,9 +2,22 @@ body{
     margin: 0;
 }
 header{
-    margin-top: 37px;
+    height: 100px;
+    max-width: 1152px;
+    margin: 0 auto;
+    position: relative;
+}
+.part1::before{
+    content: '';
+    position: absolute;
+    width: 295.29px;
+    height: 100%;
+    background-color: #EC5863;
+    left: 856.71px;
+    border-radius: 30px 0px 0px 0px;
 }
 .part1{
+    position: relative;
     max-width: 1152px;
     margin: 0 auto;
     display: flex;
@@ -36,7 +49,9 @@ nav ul li:not(:nth-child(4)){
     margin-right: 40px;
 }
 .button{
+    position: relative;
     display: flex;
+    margin-right: 43px;
     margin-left: 160.54px;
     width: 130px;
     height: 40px;
@@ -52,6 +67,7 @@ main{
     margin: 0 auto;
 }
 main .section1{
+    position: relative;
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(40, 1fr);
@@ -59,7 +75,7 @@ main .section1{
 }
 .section1 h1{
     display: grid;
-    grid-column: 1/8;
+    grid-column: 1/10;
     grid-row: 1/3;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
@@ -95,8 +111,18 @@ main .section1{
     font-weight: 800;
 }
 .section1 img{
+    position: relative;
     grid-column: 11/20;
     grid-row: 2/20;
+}
+.section1::before{
+    content: '';
+    position: absolute;
+    width: 295.29px;
+    height: 100%;
+    background-color: #EC5863;
+    left: 856.71px;
+    border-radius: 0px 0px 0px 30px;
 }
 button{
     border: 0;
@@ -122,9 +148,73 @@ button{
     font-weight: 400;
     grid-column: 2/23;
     grid-row: 32/33;
+    text-transform: uppercase;
 }
 .section1 svg{
     grid-column: 1/2;
     grid-row: 31/33;
 }
+main .section2{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(40, 1fr);
+    height: 700px;
+}
+.section2 h1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    grid-column: 7/17;
+    grid-row: 11/16;
+}
+.section2 h1 .corona{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    color: #EC5863;
+    letter-spacing: 0;
+}
+.section2 span{
+    font-family: 'Rubik', sans-serif;
+    color: #616161;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0.08em;
+    grid-column: 7/15;
+    grid-row: 21/23;
+}
+.section2 .button3{
+    display: flex;
+    width: 144px;
+    height: 40px;
+    margin-top: 24px;
+    color: #FCFDFE;
+    background: #EC5863;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 800;
+    grid-column: 7/12;
+    grid-row: 25/27;
+}
+.section2 img{
+    position: relative;
+    grid-column: 4/5;
+    grid-row: 7/212;
+}
+.section2::before { /*нужно сделать еще два квадрата*/
+    content: '';
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    background-color: #EC5863;
+    border-radius: 30px;
+    left: 100px;
+    top: 79px;
+}
+
 
