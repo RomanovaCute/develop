@@ -410,8 +410,8 @@ main .section4{
 }
 .gridcards .svg1, .svg2, .svg3{
     justify-self: center;
-    margin-top: 37.9px;
-    margin-left: 102.45px;
+    /*margin-top: 37.9px;
+    margin-left: 102.45px;*/
 }
 .gridcards p{
     font-family: 'Rubik',sans-serif;
