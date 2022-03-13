@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Intro';
+    src: local('Intro'), url('/Assets/fonts/intro.woff2') format('woff2'), url('/Assets/fonts/intro.woff') format('woff'), url('/Assets/fonts/intro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Slab';
+    src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url('/Assets/fonts/Robotoslablight.woff2') format('woff2'), url('/Assets/fonts/Robotoslablight.woff') format('woff'), url('/Assets/fonts/Robotoslablight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
